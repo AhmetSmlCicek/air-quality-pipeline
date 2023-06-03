@@ -1,7 +1,7 @@
 # Air-quality-pipeline
 This repository contains a data pipeline that extracts air quality data from the API of the Istanbul municipality, processes it, and stores it in Azure Blob Storage. The pipeline utilizes Apache Spark for data streaming and transformation, Delta Lake for data storage, and Prefect for workflow orchestration.
 
-![Alt text](ELT structure.png?raw=true "ELT Pipeline")
+<img src="ELT structure.png" alt="ELT Pipeline"/>
 # Overview
 The data pipeline follows the following steps:
 

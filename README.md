@@ -32,7 +32,7 @@ README.md: This file, providing an overview and instructions for the data pipeli
 # Setup and Configuration
 To set up and configure the data pipeline, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/air-quality-data-pipeline.git.
+Clone the repository: git clone https://github.com/AhmetSmlCicek/air-quality-pipeline.git.
 
 Install the required dependencies for Python, Apache Spark, Delta Lake, and Prefect as specified in the requirements.txt file.
 

@@ -56,3 +56,6 @@ The extract.py script will run daily and fetch air quality data from the Istanbu
 The stream.py script, executed by the workflow, will stream the JSON files from the Azure Blob container using Apache Spark and store the raw data in the bronze Delta table. Once the raw data is stored in the bronze Delta table, Spark will perform the necessary transformations and save the processed data in the silver Delta table.
 
 Connect Power BI to the silver Delta table stored in Azure Blob Storage to explore and visualize the air quality data.
+
+# To do
+Dockerize the whole pipeline so that it can be used anywhere with ease

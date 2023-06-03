@@ -1,0 +1,42 @@
+###
+### A complete description of a Prefect Deployment for flow 'flow_with_dependencies'
+###
+name: pipeline
+description: null
+version: 686e9355c60e8743ed5cf61a98e9af18
+# The work queue that will handle this deployment's runs
+work_queue_name: deploy
+work_pool_name: null
+tags: []
+parameters: {}
+schedule:
+  cron: 0 0 * * *
+  timezone: Europe/Brussels
+is_schedule_active: True
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: flow_with_dependencies
+manifest_path: null
+storage: null
+path: /Users/ahmetsamilcicek/Desktop/project/spark-pipeline
+entrypoint: main.py:main_flow
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-06-03T10:16:29.700846+00:00'
